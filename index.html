@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:regular&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montaga:regular&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="wrapper" id="wrapper">
+        <div class="content" id="content">
+            <header class="header">
+                <div class="container">
+                    <div class="header__content">
+                        <nav class="header__menu menu">
+                            <ul data-line-effect class="menu__navigation">
+                                <li class="menu__item">
+                                    <a href="#about" class="menu__link">About me</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#portfolio" class="menu__link">Portfolio</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#tariffs" class="menu__link">Tariffs</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#contacts" class="menu__link">Contacts</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="header__burger">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main class="main">
+                <section id="fullscreen" class="main__fullscreen fullscreen">
+                    <div class="container fullscreen__container">
+                        <div class="fullscreen__body">
+                            <div data-lag=".1" class="fullscreen__content">
+                                <div class="fullscreen__title">
+                                    <h1>Alex Diver</h1>
+                                </div>
+                                <div class="fullscreen__subtitle">
+                                    <p>
+                                        A modern and creative <br>
+                                        photographer for any purpose
+                                    </p>
+                                </div>
+                                <div class="fullscreen__button button">
+                                    <a href="#portfolio" class="hover-circle">
+                                        <span class="button__text">order a shoot</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="fullscreen__double-img">
+                                <div data-lag=".1" class="fullscreen__after-img">
+                                    <picture>
+                                        <source srcset="images/webp/man.webp" type="image/webp" />
+                                        <img src="images/man.jpg" alt="man">
+                                    </picture>
+                                </div>
+                                <div data-speed=".8" class="fullscreen__before-img">
+                                    <picture>
+                                        <source srcset="images/webp/beforeman.webp" type="image/webp" />
+                                        <img src="images/beforeman.jpg" alt="before-man">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="fullscreen__icons icons">
+                                <div class="fullscreen__telegram">
+                                    <a href="#">
+                                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="20.000000pt"
+                                            height="20.000000pt" viewBox="0 0 20.000000 20.000000"
+                                            preserveAspectRatio="xMidYMid meet">
+                                            <g transform="translate(0.000000,20.000000) scale(0.100000,-0.100000)"
+                                                stroke="none">
+                                                <path
+                                                    d="M93 147 c-45 -18 -85 -35 -88 -39 -12 -11 47 -22 64 -11 9 5 34 19
+                                                             56 32 l40 23 -43 -39 c-27 -24 -42 -46 -42 -62 0 -20 2 -22 15 -11 13 10 19
+                                                    10 33 -4 30 -27 40 -19 52 41 6 32 14 68 17 81 7 29 -4 28 -104 -11z" />
+                                            </g>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="fullscreen__facebook">
+                                    <a href="#">
+                                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="20.000000pt"
+                                            height="20.000000pt" viewBox="0 0 20.000000 20.000000"
+                                            preserveAspectRatio="xMidYMid meet">
+                                            <g transform="translate(0.000000,20.000000) scale(0.100000,-0.100000)"
+                                                stroke="none">
+                                                <path d="M92 188 c-7 -7 -12 -22 -12 -35 0 -14 -6 -23 -15 -23 -8 0 -15 -9
+                                                    -15 -20 0 -11 7 -20 15 -20 11 0 15 -12 15 -45 0 -38 3 -45 20 -45 17 0 20 7
+                                                    20 45 0 33 4 45 15 45 8 0 15 9 15 20 0 11 -7 20 -15 20 -8 0 -15 9 -15 20 0
+                                                    11 7 20 15 20 8 0 15 7 15 15 0 18 -41 20 -58 3z" />
+                                            </g>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="fullscreen__instagram">
+                                    <a href="#">
+                                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="20.000000pt"
+                                            height="20.000000pt" viewBox="0 0 20.000000 20.000000"
+                                            preserveAspectRatio="xMidYMid meet">
+                                            <g transform="translate(0.000000,20.000000) scale(0.100000,-0.100000)"
+                                                stroke="none">
+                                                <path d="M17 182 c-25 -27 -24 -143 1 -165 27 -25 143 -24 165 1 25 27 24 143
+                                                    -1 165 -27 25 -143 24 -165 -1z m153 -28 c0 -17 -22 -14 -28 4 -2 7 3 12 12
+                                                    12 9 0 16 -7 16 -16z m-32 -16 c15 -15 15 -61 0 -76 -15 -15 -61 -15 -76 0
+                                                    -15 15 -15 61 0 76 7 7 24 12 38 12 14 0 31 -5 38 -12z" />
+                                                <path
+                                                    d="M70 125 c-17 -21 -4 -65 19 -65 34 0 51 12 51 34 0 42 -45 62 -70 31z" />
+                                            </g>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="about" class="about">
+                    <div class="container">
+                        <div class="about__content">
+                            <div data-speed=".8" class="about__me">
+                                <div class="about__img-bg">
+                                    <picture>
+                                        <source srcset="images/webp/me.webp" type="image/webp" />
+                                        <img src="images/me.jpg" alt="Alex Diver">
+                                    </picture>
+                                </div>
+                                <div class="about__info info">
+                                    <div class="about__title">
+                                        <h2 class="title">About me</h2>
+                                    </div>
+                                    <div class="info__subtitle">
+                                        <p class="info__text text">
+                                            Hello! My name is John and I am a professional photographer. I live and work
+                                            in
+                                            New
+                                            York, but I will gladly go anywhere on the planet!
+                                        </p>
+                                        <p class="info__text text">
+                                            For more than 8 years, photography allows me to show people from a new side
+                                            and
+                                            preserve
+                                            the best and most sensitive moments of your life!
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="info__button button">
+                                    <a href="#portfolio" class="hover-circle">
+                                        <span class="button__text">portfolio</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="about__img1-bg">
+                                <picture>
+                                    <source srcset="images/webp/model2.webp" type="image/webp" />
+                                    <img src="images/model2.jpg" alt="model">
+                                </picture>
+                            </div>
+                            <div class="about__img2-bg">
+                                <picture>
+                                    <source srcset="images/webp/model.webp" type="image/webp" />
+                                    <img src="images/model.jpg" alt="model">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="portfolio" class="portfolio">
+                    <div class="container">
+                        <div class="portfolio__content">
+                            <div class="portfolio__img-bg">
+                                <picture>
+                                    <source srcset="images/webp/women.webp" type="image/webp" />
+                                    <img src="images/women.jpg" alt="model">
+                                </picture>
+                            </div>
+                            <div class="portfolio__portfolio">
+                                <div class="portfolio__title">
+                                    <h2 class="title">
+                                        Portfolio
+                                    </h2>
+                                </div>
+                                <div class="portfolio__tabs tabs">
+                                    <nav data-line-effect class="tabs__navigation">
+                                        <button type="button" class="tabs__title">
+                                            <span class="tabs__text">All</span>
+                                        </button>
+                                        <button type="button" class="tabs__title">
+                                            <span class="tabs__text">Wedding</span>
+                                        </button>
+                                        <button type="button" class="tabs__title">
+                                            <span class="tabs__text">Love story</span>
+                                        </button>
+                                        <button type="button" class="tabs__title">
+                                            <span class="tabs__text">Family</span>
+                                        </button>
+                                        <button type="button" class="tabs__title">
+                                            <span class="tabs__text">In the studio</span>
+                                        </button>
+                                    </nav>
+                                    <div class="tabs__content">
+                                        <div class="tabs__body tab-active">
+                                            <div class="tabs__gallery gallery">
+                                                <div class="gallery__img">
+                                                    <picture>
+                                                        <source srcset="images/webp/wedding.webp" type="image/webp" />
+                                                        <img src="images/wedding.jpg" alt="weeding">
+                                                    </picture>
+                                                </div>
+                                                <div class="gallery__img">
+                                                    <picture>
+                                                        <source srcset="images/webp/girl.webp" type="image/webp" />
+                                                        <img src="images/girl.jpg" alt="girl">
+                                                    </picture>
+                                                </div>
+                                                <div class="gallery__img">
+                                                    <picture>
+                                                        <source srcset="images/webp/family.webp" type="image/webp" />
+                                                        <img src="images/family.jpg" alt="family">
+                                                    </picture>
+                                                </div>
+                                                <div class="gallery__img">
+                                                    <picture>
+                                                        <source srcset="images/webp/lovephoto.webp" type="image/webp" />
+                                                        <img src="images/lovephoto.jpg" alt="lovephoto">
+                                                    </picture>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tabs__body">
+                                            <div class="tabs__gallery gallery">
+                                                <div class="gallery__img">
+                                                    <picture>
+                                                        <source srcset="images/webp/wedding.webp" type="image/webp" />
+                                                        <img src="images/wedding.jpg" alt="weeding">
+                                                    </picture>
+                                                </div>
+                                                <div class="gallery__img">
+                                                    <picture>
+                                                        <source srcset="images/webp/girl.webp" type="image/webp" />
+                                                        <img src="images/girl.jpg" alt="girl">
+                                                    </picture>
+                                                </div>
+                                                <div class="gallery__img">
+                                                    <picture>
+                                                        <source srcset="images/webp/family.webp" type="image/webp" />
+                                                        <img src="images/family.jpg" alt="family">
+                                                    </picture>
+                                                </div>
+                                                <div class="gallery__img">
+                                                    <picture>
+                                                        <source srcset="images/webp/lovephoto.webp" type="image/webp" />
+                                                        <img src="images/lovephoto.jpg" alt="lovephoto">
+                                                    </picture>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tabs__body">
+                                            <div class="tabs__gallery gallery">
+                                                <div class="gallery__img">
+                                                    <picture>
+                                                        <source srcset="images/webp/wedding.webp" type="image/webp" />
+                                                        <img src="images/wedding.jpg" alt="weeding">
+                                                    </picture>
+                                                </div>
+                                                <div class="gallery__img">
+                                                    <picture>
+                                                        <source srcset="images/webp/girl.webp" type="image/webp" />
+                                                        <img src="images/girl.jpg" alt="girl">
+                                                    </picture>
+                                                </div>
+                                                <div class="gallery__img">
+                                                    <picture>
+                                                        <source srcset="images/webp/family.webp" type="image/webp" />
+                                                        <img src="images/family.jpg" alt="family">
+                                                    </picture>
+                                                </div>
+                                                <div class="gallery__img">
+                                                    <picture>
+                                                        <source srcset="images/webp/lovephoto.webp" type="image/webp" />
+                                                        <img src="images/lovephoto.jpg" alt="lovephoto">
+                                                    </picture>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tabs__body">
+                                            <div class="tabs__gallery gallery">
+                                                <div class="gallery__img">
+                                                    <picture>
+                                                        <source srcset="images/webp/wedding.webp" type="image/webp" />
+                                                        <img src="images/wedding.jpg" alt="weeding">
+                                                    </picture>
+                                                </div>
+                                                <div class="gallery__img">
+                                                    <picture>
+                                                        <source srcset="images/webp/girl.webp" type="image/webp" />
+                                                        <img src="images/girl.jpg" alt="girl">
+                                                    </picture>
+                                                </div>
+                                                <div class="gallery__img">
+                                                    <picture>
+                                                        <source srcset="images/webp/family.webp" type="image/webp" />
+                                                        <img src="images/family.jpg" alt="family">
+                                                    </picture>
+                                                </div>
+                                                <div class="gallery__img">
+                                                    <picture>
+                                                        <source srcset="images/webp/lovephoto.webp" type="image/webp" />
+                                                        <img src="images/lovephoto.jpg" alt="lovephoto">
+                                                    </picture>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tabs__body">
+                                            <div class="tabs__gallery gallery">
+                                                <div class="gallery__img">
+                                                    <picture>
+                                                        <source srcset="images/webp/wedding.webp" type="image/webp" />
+                                                        <img src="images/wedding.jpg" alt="weeding">
+                                                    </picture>
+                                                </div>
+                                                <div class="gallery__img">
+                                                    <picture>
+                                                        <source srcset="images/webp/girl.webp" type="image/webp" />
+                                                        <img src="images/girl.jpg" alt="girl">
+                                                    </picture>
+                                                </div>
+                                                <div class="gallery__img">
+                                                    <picture>
+                                                        <source srcset="images/webp/family.webp" type="image/webp" />
+                                                        <img src="images/family.jpg" alt="family">
+                                                    </picture>
+                                                </div>
+                                                <div class="gallery__img">
+                                                    <picture>
+                                                        <source srcset="images/webp/lovephoto.webp" type="image/webp" />
+                                                        <img src="images/lovephoto.jpg" alt="lovephoto">
+                                                    </picture>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </section>
+                <section id="tariffs" class="main__tariffs tariffs">
+                    <div class="container">
+                        <div class="tariffs__content">
+                            <div class="tariffs__title">
+                                <h2 class="title">
+                                    Tariffs
+                                </h2>
+                            </div>
+                            <div class="tariffs__body">
+                                <div class="tariffs__tariff tariff">
+                                    <h4 class="tariff__title">
+                                        Individual
+                                    </h4>
+                                    <p class="tariff__text">
+                                        work time - 1 hours
+                                    </p>
+                                    <p class="tariff__text">
+                                        number of photo - 100
+                                    </p>
+                                    <p class="tariff__text">
+                                        deadline - up to 2 weeks
+                                    </p>
+                                    <div class="tariff__buy buy">
+                                        <span class="buy__price">
+                                            50$
+                                        </span>
+                                        <button type="button" class="buy__button">
+                                            buy
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="tariffs__tariff tariff">
+                                    <h4 class="tariff__title">
+                                        Couple photo shoot
+                                    </h4>
+                                    <p class="tariff__text">
+                                        work time - 2 hours
+                                    </p>
+                                    <p class="tariff__text">
+                                        number of photo - 350
+                                    </p>
+                                    <p class="tariff__text">
+                                        deadline - up to 3 weeks
+                                    </p>
+                                    <div class="tariff__buy buy">
+                                        <span class="buy__price">
+                                            75$
+                                        </span>
+                                        <button type="button" class="buy__button">
+                                            buy
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="tariffs__tariff tariff">
+                                    <h4 class="tariff__title">
+                                        Family photo shoot
+                                    </h4>
+                                    <p class="tariff__text">
+                                        work time - 3 hours
+                                    </p>
+                                    <p class="tariff__text">
+                                        number of photo - 450
+                                    </p>
+                                    <p class="tariff__text">
+                                        deadline - up to 4 weeks
+                                    </p>
+                                    <div class="tariff__buy buy">
+                                        <span class="buy__price">
+                                            100$
+                                        </span>
+                                        <button type="button" class="buy__button">
+                                            buy
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="tariffs__tariff tariff">
+                                    <h4 class="tariff__title">
+                                        Events
+                                    </h4>
+                                    <p class="tariff__text">
+                                        work time - 10 hours
+                                    </p>
+                                    <p class="tariff__text">
+                                        number of photo - 3000
+                                    </p>
+                                    <p class="tariff__text">
+                                        deadline - up to 5 weeks
+                                    </p>
+                                    <div class="tariff__buy buy">
+                                        <span class="buy__price">
+                                            400$
+                                        </span>
+                                        <button type="button" class="buy__button button">
+                                            buy
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="contacts" class="contacts">
+                    <div class="container">
+                        <div class="contacts__content">
+                            <div class="contacts__img-bg">
+                                <picture>
+                                    <source srcset="images/webp/gowithme.webp" type="image/webp" />
+                                    <img src="images/gowithme.jpg" alt="gowithmejpg">
+                                </picture>
+                            </div>
+                            <div class="contacts__contacts">
+                                <div class="contacts__title">
+                                    <h2 class="title">
+                                        Contacts
+                                    </h2>
+                                </div>
+                                <form action="#" class="contacts__form form" id="form" name="main">
+                                    <div class="form__item">
+                                        <input data-req type="text" id="forName" name="name" class="form__input"
+                                            placeholder="your name">
+                                    </div>
+                                    <div class="form__item">
+                                        <input data-req type="tel" id="formTel" name="tel" class="form__input _tel"
+                                            placeholder="your phone number">
+                                    </div>
+                                    <div class="form__item">
+                                        <textarea type="text" id="formMessage" name="message" class="form__input"
+                                            placeholder="your comment"></textarea>
+                                    </div>
+                                    <button type="submit" class="form__button button">
+                                        <span class="hover-circle">
+                                            <span class="button__text">order a shoot</span>
+                                        </span>
+                                    </button>
+                                    <div class="loader"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer">
+                <div class="footer__container container">
+                    <div class="footer__content">
+                        <h2 class="footer__title">
+                            Alex Diver
+                        </h2>
+                        <div class="footer__contact">
+                            <div class="footer__tel tel">
+                                <p class="tel__text">
+                                    <a href="tel:+000000000">+1 212 ХХХ ХХ ХХ</a>
+                                </p>
+                            </div>
+                            <div class="footer__location location">
+                                <p class="location__text">
+                                    New-York
+                                </p>
+                            </div>
+                        </div>
+                        <nav class="footer__menu menu">
+                            <ul data-line-effect class="menu__navigation">
+                                <li class="menu__item">
+                                    <a href="#about" class="menu__link">About me</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#portfolio" class="menu__link">Portfolio</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#tariffs" class="menu__link">Tariffs</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#contacts" class="menu__link">Contacts</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="footer__icons icons">
+                            <div class="footer__telegram">
+                                <a href="#">
+                                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="20.000000pt"
+                                        height="20.000000pt" viewBox="0 0 20.000000 20.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <g transform="translate(0.000000,20.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M93 147 c-45 -18 -85 -35 -88 -39 -12 -11 47 -22 64 -11 9 5 34 19
+                                                     56 32 l40 23 -43 -39 c-27 -24 -42 -46 -42 -62 0 -20 2 -22 15 -11 13 10 19
+                                            10 33 -4 30 -27 40 -19 52 41 6 32 14 68 17 81 7 29 -4 28 -104 -11z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class=" footer__facebook">
+                                <a href="#">
+                                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="20.000000pt"
+                                        height="20.000000pt" viewBox="0 0 20.000000 20.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <g transform="translate(0.000000,20.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M92 188 c-7 -7 -12 -22 -12 -35 0 -14 -6 -23 -15 -23 -8 0 -15 -9
+                                            -15 -20 0 -11 7 -20 15 -20 11 0 15 -12 15 -45 0 -38 3 -45 20 -45 17 0 20 7
+                                            20 45 0 33 4 45 15 45 8 0 15 9 15 20 0 11 -7 20 -15 20 -8 0 -15 9 -15 20 0
+                                            11 7 20 15 20 8 0 15 7 15 15 0 18 -41 20 -58 3z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="footer__instagram">
+                                <a href="#">
+                                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="20.000000pt"
+                                        height="20.000000pt" viewBox="0 0 20.000000 20.000000"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <g transform="translate(0.000000,20.000000) scale(0.100000,-0.100000)"
+                                            stroke="none">
+                                            <path d="M17 182 c-25 -27 -24 -143 1 -165 27 -25 143 -24 165 1 25 27 24 143
+                                            -1 165 -27 25 -143 24 -165 -1z m153 -28 c0 -17 -22 -14 -28 4 -2 7 3 12 12
+                                            12 9 0 16 -7 16 -16z m-32 -16 c15 -15 15 -61 0 -76 -15 -15 -61 -15 -76 0
+                                            -15 15 -15 61 0 76 7 7 24 12 38 12 14 0 31 -5 38 -12z" />
+                                            <path
+                                                d="M70 125 c-17 -21 -4 -65 19 -65 34 0 51 12 51 34 0 42 -45 62 -70 31z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="js/libs/gsap.min.js" defer></script>
+    <script src="js/libs/ScrollTrigger.min.js" defer></script>
+    <script src="js/libs/ScrollSmoother.min.js" defer></script>
+    <script src="js/script.js" defer></script>
+
+</body>
+
+</html>
